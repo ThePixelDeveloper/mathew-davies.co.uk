@@ -41,7 +41,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         //thepixeldeveloper.github.io/mathew-davies.co.uk/
+url:         //thepixeldeveloper.github.io/mathew-davies.co.uk
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -112,7 +112,7 @@ redcloth:
 assets:
 
   dirname: assets
-  baseurl: /assets/
+  baseurl: //thepixeldeveloper.github.io/mathew-davies.co.uk/assets/
   sources:
     - _assets/javascripts
     - _assets/stylesheets
