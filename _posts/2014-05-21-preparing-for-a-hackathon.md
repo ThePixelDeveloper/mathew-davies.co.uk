@@ -43,6 +43,9 @@ The path of least resistance for this is to use one of the following services:
 
 and select all the options.
 
+A hackathon is not the place to start playing with the latest tools. I remember wasting a fair bit of time playing with 
+Volo (javascript packager manager) during the COSMIC hack. Stick to what you know.
+
 The Idea
 -----
 
