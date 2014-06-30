@@ -19,4 +19,4 @@ Son of a Beast
 ==============
 
 I'll be attempting to out-perform it by a few dB and make more use of the battery packs. We'll see if I succeed or not. 
-Part 2  is coming soon which will go through about streaming sound to a remote system.
+Part 2 is coming soon which will go through streaming sound to a remote system.
