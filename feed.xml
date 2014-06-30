@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Mon, 30 Jun 2014 22:09:59 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Jun 2014 22:09:59 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>Building a Critical Mass Sound System - Part 1</title>
+      <link>/2014/06/30/critical-mass-sound-system/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/06/30/critical-mass-sound-system</guid>
+      <description>&lt;p&gt;I’ll be basing my build off the powerful ”&lt;a href=&quot;http://instructables.com/id/How-to-make-a-trailer-mounted-bike-sound-system/?ALLSTEPS&quot;&gt;Beastbox&lt;/a&gt;”, so it only makes sense this project is named:&lt;/p&gt;
+
+&lt;h1 id=&quot;son_of_a_beast&quot;&gt;Son of a Beast&lt;/h1&gt;
+
+&lt;p&gt;I’ll be attempting to out-perform it by a few dB and make more use of the battery packs. We’ll see if I succeed or not. Part 2 is coming soon which will go through streaming sound to a remote system.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Preparing for a Hackathon as a Developer</title>
+      <link>/2014/05/21/preparing-for-a-hackathon/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/05/21/preparing-for-a-hackathon</guid>
+      <description>&lt;p&gt;Here’s how I prepared for an internal hackathon at DueDil. My goal here was to be able to work with a slow internet connection or be completely offline. It’s rare this would happen, but if I plan for it then I should have some advantage over the competition should it occur.&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;All of the following provide offline documentation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://devdocs.io/&quot;&gt;DevDocs.io&lt;/a&gt; supports most of the web programming languages, but misses out on some of the big ones , ie Objective C, C, C++, Scala and Clojure.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://kapeli.com/dash&quot;&gt;Dash&lt;/a&gt; for Mac does the same as DevDocs.io, but within a desktop app. It comes with a lot more languages, but it comes at a cost of $20.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://zealdocs.org/&quot;&gt;Zeal&lt;/a&gt; is the open-source equivalent of Dash and works with Linux and Windows. Supports what Dash does and integrates into emacs and vim.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;programming_environment&quot;&gt;Programming Environment&lt;/h2&gt;
+
+&lt;p&gt;I’m a Vagrant user and so what I did was pre-provision a box with a wide variety of databases, web servers and job queuing daemons. This means I can switch software without wasting time during the event. The path of least resistance for this is to use one of the following services:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://puphpet.com&quot;&gt;PuPHPet&lt;/a&gt; - Provisions a Vagrant env with Puppet&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://rove.io/&quot;&gt;Rove&lt;/a&gt; - Provisions a Vagrant env with Chef&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and select all the options.&lt;/p&gt;
+
+&lt;p&gt;A hackathon is not the place to start playing with the latest tools. I remember wasting a fair bit of time playing with Volo (javascript packager manager) during the COSMIC hack. Stick to what you know.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_idea&quot;&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Ensure you come up with something you can finish off within the time frame. Remember you’re not going to be working the full period and will spend a few hours eating, drinking and socialising. Make sure you plan for it.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>A Composer Caveat</title>
+      <link>/2014/05/21/a-composer-caveat/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/05/21/a-composer-caveat</guid>
+      <description>&lt;p&gt;This critical bug hit me when BitBucket (a git hosting provider) went down. I was working on a project and tried to update a Github dependency&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;composer update github/dependency&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and realised Composer is still trying to connect to Bitbucket. This makes it &lt;em&gt;extremely&lt;/em&gt; brittle as you’re relying on all hosting providers to be online at the time of an update. Just a caveat to watch out for.&lt;/p&gt;</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>
