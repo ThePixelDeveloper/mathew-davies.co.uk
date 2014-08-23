@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Sat, 23 Aug 2014 20:53:13 +0000</pubDate>
+    <lastBuildDate>Sat, 23 Aug 2014 20:53:13 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>Building a Critical Mass Sound System - Part 2</title>
+      <link>/2014/08/23/critical-mass-sound-system-2/</link>
+      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/08/23/critical-mass-sound-system-2</guid>
+      <description>&lt;p&gt;I’m going to assume you have some basic technical skill and will be able to install the Pi 
+operating system, connect your monitor, mouse and keyboard without my help.&lt;/p&gt;
+
+&lt;h1 id=&quot;parts-list&quot;&gt;Parts List&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Raspberry Pi (Version B+) (£30):&lt;/strong&gt; This is a small computer that will automatically start our bluetooth network. &lt;a href=&quot;http://www.amazon.co.uk/Raspberry-Pi-Desktop-700MHz-Processor/dp/B00LPESRUK/ref=sr_1_1?ie=UTF8&amp;amp;qid=1408823657&amp;amp;sr=8-1&amp;amp;keywords=raspberry+pi+b%2B&quot;&gt;Raspberry Pi B+ on Amazon&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Raspberry Pi Case (£6):&lt;/strong&gt; You can choose whatever you like, or entirely skip it. I
+chose the fairly robust &lt;a href=&quot;https://www.modmypi.com/modmypi-model-b-plus-raspberry-pi-case-black?filter_name=b+%20case&quot;&gt;ModMyPi RPi Model B+ Case&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Power supply: (£5)&lt;/strong&gt; You’ll need a power supply as one isn’t provided. I can’t remember where I bought mine, but any &lt;a href=&quot;http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;amp;field-keywords=micro+usb+charger+pi&amp;amp;rh=i%3Aaps%2Ck%3Amicro+usb+charger+pi&quot;&gt;micro USB charger&lt;/a&gt; should do.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NOOBS SD Card (£7):&lt;/strong&gt;  I’d recommend the &lt;a href=&quot;http://www.amazon.co.uk/Official-Raspberry-Pi-NOOBS-Card/dp/B00KAE1GHC/ref=sr_1_2?ie=UTF8&amp;amp;qid=1408823960&amp;amp;sr=8-2&amp;amp;keywords=noobs+sd+card&quot;&gt;NOOBS SD Card&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bluetooth Adapter (£10):&lt;/strong&gt; ASUS products are well regarded, compatible with the Raspberry Pi and are not &lt;em&gt;too&lt;/em&gt; expensive. The &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B00CM83SC0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=B00CM83SC0&amp;amp;linkCode=as2&amp;amp;tag=mathdavi-21&quot;&gt;Asus USB-BT400&lt;/a&gt; fit the bill.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HDMI to DVI Cable (£5):&lt;/strong&gt; This is needed so we can connect the monitor to the Pi and see what we’re doing. I went ahead and bought the &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B001NXOGQW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=B001NXOGQW&amp;amp;linkCode=as2&amp;amp;tag=mathdavi-21&quot;&gt;World of Data - 1m HDMI to DVI Cable &lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: £64 - Not too shabby for a system that you can remotely send audio to.&lt;/p&gt;
+
+&lt;h1 id=&quot;operating-system&quot;&gt;Operating System&lt;/h1&gt;
+
+&lt;p&gt;I used Arch Linux from the NOOBs setup. This operating system doesn’t come with a user interface so having some experience 
+with the terminal is required.&lt;/p&gt;
+
+&lt;h1 id=&quot;installing-bluetooth&quot;&gt;Installing Bluetooth&lt;/h1&gt;
+
+&lt;p&gt;I followed a guide by &lt;a href=&quot;http://delx.net.au/blog/2014/01/bluetooth-audio-a2dp-receiver-raspberry-pi/&quot;&gt;delx&lt;/a&gt; so in the interest of not
+blogging about exactly the same thing I’ll pass you over to them. &lt;/p&gt;
+
+&lt;p&gt;If you do run into any problems, Please ping me on Twitter (handle below) and I’ll try and aide you as best as I can and update this post with the answers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;/archive/delx.html&quot;&gt;Mirror of delx.net&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;So there you go! A device smaller than your hand, that has fantastic range and doesn’t sound half bad. &lt;/p&gt;
+
+&lt;p&gt;Part 3 is coming soon which is going to go over how to choose speaker drivers.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Building a Critical Mass Sound System - The Logo</title>
+      <link>/2014/07/16/critical-mass-sound-system-logo/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/07/16/critical-mass-sound-system-logo</guid>
+      <description>&lt;p&gt;I didn’t expect this, so it came as a shock when a good friend of mine &lt;a href=&quot;http://davestewart.co.uk/&quot;&gt;Dave Stewart&lt;/a&gt; decided 
+to create a logo for me. Here it is: &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/son-of-a-beast-logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;He kindly created an animated version as well, imagine the sound waves acting as a graphic equalizer!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/son-of-a-beast-logo-animated.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t have the time to work on this, but would love to see it. I wont be at all mad if someone beats me to the line.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Building a Critical Mass Sound System - Part 1</title>
+      <link>/2014/06/30/critical-mass-sound-system/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/06/30/critical-mass-sound-system</guid>
+      <description>&lt;p&gt;I’ll be basing my build off the powerful “&lt;a href=&quot;http://instructables.com/id/How-to-make-a-trailer-mounted-bike-sound-system/?ALLSTEPS&quot;&gt;Beastbox&lt;/a&gt;”, so it only makes sense this project is named:&lt;/p&gt;
+
+&lt;h1 id=&quot;son-of-a-beast&quot;&gt;Son of a Beast&lt;/h1&gt;
+
+&lt;p&gt;I’ll be attempting to out-perform it by a few dB and make more use of the battery packs. We’ll see if I succeed or not. 
+Part 2 is coming soon which will go through streaming sound to a remote system.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Preparing for a Hackathon as a Developer</title>
+      <link>/2014/05/21/preparing-for-a-hackathon/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/05/21/preparing-for-a-hackathon</guid>
+      <description>&lt;p&gt;Here’s how I prepared for an internal hackathon at DueDil. My goal here was to be able to work with a 
+slow internet connection or be completely offline. It’s rare this would happen, but if I plan for it then
+I should have some advantage over the competition should it occur.&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;All of the following provide offline documentation.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://devdocs.io/&quot;&gt;DevDocs.io&lt;/a&gt; supports most of the web programming languages, but misses out on some of the big ones 
+, ie Objective C, C, C++, Scala and Clojure. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://kapeli.com/dash&quot;&gt;Dash&lt;/a&gt; for Mac does the same as DevDocs.io, but within a desktop app. It comes with a lot more 
+languages, but it comes at a cost of $20.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://zealdocs.org/&quot;&gt;Zeal&lt;/a&gt; is the open-source equivalent of Dash and works with Linux and Windows. Supports what Dash
+does and integrates into emacs and vim.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;programming-environment&quot;&gt;Programming Environment&lt;/h2&gt;
+
+&lt;p&gt;I’m a Vagrant user and so what I did was pre-provision a box with a wide variety of 
+databases, web servers and job queuing daemons. This means I can switch software without wasting time during the event.
+The path of least resistance for this is to use one of the following services:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://puphpet.com&quot;&gt;PuPHPet&lt;/a&gt; - Provisions a Vagrant env with Puppet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rove.io/&quot;&gt;Rove&lt;/a&gt; - Provisions a Vagrant env with Chef&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and select all the options.&lt;/p&gt;
+
+&lt;p&gt;A hackathon is not the place to start playing with the latest tools. I remember wasting a fair bit of time playing with 
+Volo (javascript packager manager) during the COSMIC hack. Stick to what you know.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-idea&quot;&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Ensure you come up with something you can finish off within the time frame. Remember you’re not going to be working the 
+full period and will spend a few hours eating, drinking and socialising. Make sure you plan for it.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>A Composer Caveat</title>
+      <link>/2014/05/21/a-composer-caveat/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>/2014/05/21/a-composer-caveat</guid>
+      <description>&lt;p&gt;This critical bug hit me when BitBucket (a git hosting provider) went down. I was working on a project and tried to update a
+Github dependency&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;composer update github/dependency
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and realised Composer is still trying to connect to Bitbucket. This makes it &lt;em&gt;extremely&lt;/em&gt; brittle as you’re relying on all hosting 
+providers to be online at the time of an update. Just a caveat to watch out for.  &lt;/p&gt;
+</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>
