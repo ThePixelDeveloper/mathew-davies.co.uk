@@ -24,4 +24,4 @@ _You might ask why I don't install Grunt and Compass in the VM._
 
 There's a lot more to go wrong and having to make sure all these tools are in working order is a pain, especially when breaking changes occur. Not having Vagrant isn't an option either. 
 
-What's the way forward? Am I using the wrong tools? 
+What's the way forward? Or am I just using the wrong tools? 
