@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Critical Mass Sound System - Part 2 &mdash; Mathew Davies</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Mathew Davies" />
+    <meta name="title" content="Building a Critical Mass Sound System - Part 2 ">
+    <link rel="canonical" href="/2014/08/23/critical-mass-sound-system-2/">
+     
+           
+    <meta property="og:title" content="Building a Critical Mass Sound System - Part 2 "/>
+    <meta property="og:url" content="/2014/08/23/critical-mass-sound-system-2/"/>
+    
+    
+    <meta property="og:description" content="Remote sounds - How to get the music from your smart phone to the speaker, wirelessly"/>
+    <meta name="description" content="Remote sounds - How to get the music from your smart phone to the speaker, wirelessly"/>
+    
+    <meta property="og:site_name" content="Mathew Davies">     
+</head>
+<body>
+    
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="/">
+                <span class="logo" title="Mathew Davies">MD</span>
+            </a>
+            
+            
+        </nav>
+        
+    </header>
+</section>
+
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="" title="Mathew Davies" target="_blank">Mathew Davies</a></address> &mdash;
+                <time pubdate datetime="2014-23-August" title="August 23, 2014">August 23, 2014</time>
+            </div>
+            <h1 class="title">Building a Critical Mass Sound System - Part 2</h1>
+            <h2 class="subtitle">Remote sounds</h2>
+        </header>
+
+        <section>
+            <p>I’m going to assume you have some basic technical skill and will be able to install the Pi 
+operating system, connect your monitor, mouse and keyboard without my help.</p>
+
+<h1 id="parts-list">Parts List</h1>
+
+<ul>
+  <li>
+    <p><strong>Raspberry Pi (Version B+) (£30):</strong> This is a small computer that will automatically start our bluetooth network. <a href="http://www.amazon.co.uk/Raspberry-Pi-Desktop-700MHz-Processor/dp/B00LPESRUK/ref=sr_1_1?ie=UTF8&amp;qid=1408823657&amp;sr=8-1&amp;keywords=raspberry+pi+b%2B">Raspberry Pi B+ on Amazon</a>.</p>
+  </li>
+  <li>
+    <p><strong>Raspberry Pi Case (£6):</strong> You can choose whatever you like, or entirely skip it. I
+chose the fairly robust <a href="https://www.modmypi.com/modmypi-model-b-plus-raspberry-pi-case-black?filter_name=b+%20case">ModMyPi RPi Model B+ Case</a>.</p>
+  </li>
+  <li>
+    <p><strong>Power supply: (£5)</strong> You’ll need a power supply as one isn’t provided. I can’t remember where I bought mine, but any <a href="http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=micro+usb+charger+pi&amp;rh=i%3Aaps%2Ck%3Amicro+usb+charger+pi">micro USB charger</a> should do.</p>
+  </li>
+  <li>
+    <p><strong>NOOBS SD Card (£7):</strong>  I’d recommend the <a href="http://www.amazon.co.uk/Official-Raspberry-Pi-NOOBS-Card/dp/B00KAE1GHC/ref=sr_1_2?ie=UTF8&amp;qid=1408823960&amp;sr=8-2&amp;keywords=noobs+sd+card">NOOBS SD Card</a>.</p>
+  </li>
+  <li>
+    <p><strong>Bluetooth Adapter (£10):</strong> ASUS products are well regarded, compatible with the Raspberry Pi and are not <em>too</em> expensive. The <a href="http://www.amazon.co.uk/gp/product/B00CM83SC0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B00CM83SC0&amp;linkCode=as2&amp;tag=mathdavi-21">Asus USB-BT400</a> fit the bill.</p>
+  </li>
+  <li>
+    <p><strong>HDMI to DVI Cable (£5):</strong> This is needed so we can connect the monitor to the Pi and see what we’re doing. I went ahead and bought the <a href="http://www.amazon.co.uk/gp/product/B001NXOGQW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B001NXOGQW&amp;linkCode=as2&amp;tag=mathdavi-21">World of Data - 1m HDMI to DVI Cable </a>.</p>
+  </li>
+</ul>
+
+<p><strong>Total</strong>: £64 - Not too shabby for a system that you can remotely send audio to.</p>
+
+<h1 id="operating-system">Operating System</h1>
+
+<p>I used Arch Linux from the NOOBs setup. This operating system doesn’t come with a user interface so having some experience 
+with the terminal is required.</p>
+
+<h1 id="installing-bluetooth">Installing Bluetooth</h1>
+
+<p>I followed a guide by <a href="http://delx.net.au/blog/2014/01/bluetooth-audio-a2dp-receiver-raspberry-pi/">delx</a> so in the interest of not
+blogging about exactly the same thing I’ll pass you over to them. </p>
+
+<p>If you do run into any problems, Please ping me on Twitter (handle below) and I’ll try and aide you as best as I can and update this post with the answers.</p>
+
+<p><em><a href="/archive/delx.html">Mirror of delx.net</a></em></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>So there you go! A device smaller than your hand, that has fantastic range and doesn’t sound half bad. </p>
+
+<p>Part 3 is coming soon which is going to go over how to choose speaker drivers.</p>
+
+            
+        </section>
+
+        <footer>
+            <address>
+               
+                <p>Written by <strong><a rel="author" href="https://twitter.com/ColonelRosa" title="" target="_blank">Mathew Davies</a></strong><br>
+                <span class="muted">Mathew is a developer for DueDil</span>
+                </p>
+            </address>
+
+        </footer>
+
+        
+    </div>
+</article>
+
+
+<footer class="site-footer">
+    <div class="container">
+        &copy; 2015 
+        
+        <nav>
+            <a href="https://duedil.com">DueDil</a> &middot;
+            <a href="/">Blog</a>
+            
+            
+        </nav>
+        
+        <nav class="social">
+            
+            <a href="https://twitter.com/ColonelRosa" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+            
+            <a href="http://facebook.com/ThePixelDeveloper" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
